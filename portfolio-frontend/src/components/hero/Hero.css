@@ -1,0 +1,68 @@
+.hero {
+    margin: 200px 100px;
+    display: flex;
+    align-items: center;
+}
+
+.hero .yellow_highlight {
+    margin-bottom: 0;
+
+}
+
+.hero .yellow_highlight img {
+    width: 100px;
+}
+
+.hero article {
+    width: 50%;
+}
+
+.hero article h2 {
+    padding-bottom: 5px;
+}
+
+.hero article h3 {
+    font-family: 'Inter-Regular', sans-serif;
+    font-size: 2rem;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+.heroLeft a {
+    color: white;
+    background-color: #113c4a;
+    padding: 10px 50px;
+    border: 2px solid #113c4a;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.heroLeft a:hover {
+    color: #113c4a;
+    background-color: white;
+    border: 2px solid #113c4a;
+}
+
+.heroLeft a:active {
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+}
+
+.heroRight {
+    display: inline-block;
+    position: relative;
+
+}
+
+.heroRight::before {
+    position: absolute;
+    border: 3px solid #265A5C;
+    top: 2%;
+    left: 3%;
+    width: 80%;
+    height: 100%;
+    content: '';
+}
+
+.heroRight img {
+    width: 80%;
+}

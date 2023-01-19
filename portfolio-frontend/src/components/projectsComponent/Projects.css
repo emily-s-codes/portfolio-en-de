@@ -1,0 +1,71 @@
+.projekte {
+    margin: 200px 100px;
+}
+
+.projektGrid {
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.project {
+    background-color: rgb(38, 90, 92);
+    aspect-ratio: 1/1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    display: grid;
+}
+
+.stackMap {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.displayToggleDiv:hover .project {
+    display: none;
+    border-radius: 0px;
+}
+
+.displayToggleDiv {
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    transition: transform 250ms;
+}
+
+.displayToggleDiv:hover {
+    border-radius: 0px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.displayToggleDiv img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+    object-position: center;
+    overflow: hidden;
+    border-radius: 20px;
+    display: none;
+    padding: 5px;
+}
+
+.displayToggleDiv:hover img {
+    display: block;
+}
+
+.projektGrid .project h3,
+.projektGrid .project p {
+    color: white;
+    text-align: center;
+}
+
+.projektGrid .project h3 {
+    font-size: 3.6rem;
+}
+
+.project a {
+    text-decoration: none;
+}

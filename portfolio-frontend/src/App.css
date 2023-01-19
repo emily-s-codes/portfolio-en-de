@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+/* ASSETS
+#DDDDDD button hover background
+#113C4A text
+#265A5C OR rgb(38, 90, 92) button solid background, border
+#3F7B70 link outside button hover
+#8BBCCC ?
+#FEC260 ?
+*/
+
+@font-face {
+  font-family: 'Inter-Regular';
+  src: url("./assets/fonts/Inter-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'Inter-ExtraBold';
+  src: url("./assets/fonts/Inter-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: 'Inter-Bold';
+  src: url("./assets/fonts/Inter-Bold.ttf");
+}
+
+@font-face {
+  font-family: 'Inter-Light';
+  src: url("./assets/fonts/Inter-Light.ttf");
+}
+
+@font-face {
+  font-family: 'Inter-Thin';
+  src: url("./assets/fonts/Inter-Thin.ttf");
+}
+
+.english {
+  display: none;
+}
+
+html {
+  font-family: 'Inter-Regular', sans-serif;
+}
+
+h1 {
+  font-family: 'Inter-ExtraBold', sans-serif;
+  font-size: 2.2rem;
+  color: #113c4a;
+}
+
+h2 {
+  font-family: 'Inter-Bold', sans-serif;
+  font-size: 6rem;
+  color: #113c4a;
+  padding: 5px 0 30px 0;
+}
+
+h3 {
+  font-family: 'Inter-Bold', sans-serif;
+  font-size: 2.5rem;
+  color: #113c4a;
+}
+
+p,
+ul li,
+ol li {
+  font-size: 1.5rem;
+  color: #113c4a;
+}
+
+.yellow_highlight {
+  font-size: 1.8rem;
+  color: #FEC260;
+  filter: brightness(0) saturate(100%) invert(92%) sepia(71%) saturate(4181%) hue-rotate(311deg) brightness(101%) contrast(99%);
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.icon_color_filter {
+  color: #113C4A;
+  filter: brightness(0) saturate(100%) invert(17%) sepia(18%) saturate(1904%) hue-rotate(149deg) brightness(99%) contrast(91%);
+}

@@ -1,0 +1,51 @@
+.techstack {
+    margin: 150px 0 200px 100px;
+    padding: 100px 100px 150px 100px;
+    border-top: 3px solid #265A5C;
+    border-left: 3px solid #265A5C;
+    border-bottom: 3px solid #265A5C;
+    display: flex;
+    flex-direction: column;
+}
+
+.techstack article {
+    display: grid;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.techstack1,
+.techstack3 {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.techstack2 {
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.techstack div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.techstack img {
+    width: 100px;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+    object-position: center;
+    padding: 10px;
+}
+
+.techstack div:hover img {
+    display: none;
+}
+
+.techstack div p {
+    padding-top: 10px;
+    display: none;
+}
+
+.techstack div:hover p {
+    display: block;
+}

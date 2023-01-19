@@ -1,0 +1,11 @@
+import "./Footer.css"
+
+const Footer = () => {
+    return (
+        <div>
+            <h2>here is my footer</h2>
+        </div>
+    );
+}
+
+export default Footer;

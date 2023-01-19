@@ -1,0 +1,51 @@
+header nav {
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #113c4a;
+}
+
+header nav ul li.navContact a {
+    color: white;
+    background-color: #113c4a;
+    padding: 10px 30px;
+    border: 2px solid #113c4a;
+}
+
+header nav ul li.navContact a:hover {
+    color: #113c4a;
+    background-color: white;
+    border: 2px solid #113c4a;
+}
+
+header nav ul li.navContact a:active {
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+}
+
+.langToggleDiv {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px 40px;
+    gap: 10px;
+}
+
+.langToggleDiv .EN:hover,
+.langToggleDiv .DE:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}

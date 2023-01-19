@@ -1,0 +1,103 @@
+.experience {
+    margin: 200px 100px;
+}
+
+.workExperienceGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 30px repeat(4, 205px);
+    gap: 20px;
+}
+
+.workExperienceGrid div ul {
+    list-style-type: square;
+    margin-top: 5px;
+}
+
+.workExperienceGrid div p,
+.workExperienceGrid div ul li {
+    color: white;
+}
+
+.workExperienceGrid div ul li {
+    margin-left: 30px;
+}
+
+.jobTitle {
+    font-family: 'Inter-Bold', sans-serif;
+    font-size: 1.6rem;
+    padding: 5px 0;
+}
+
+.bootcamp:hover,
+.MM:hover,
+.BM:hover,
+.violist:hover,
+.student-services:hover,
+.RPO:hover {
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.bootcamp,
+.MM,
+.BM {
+    background-color: rgb(38, 90, 92);
+    padding: 20px;
+}
+
+.violist,
+.student-services,
+.RPO {
+    background-color: rgb(38, 90, 92, 0.7);
+    padding: 20px;
+}
+
+.workExperienceHeadline {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    align-self: end;
+    padding: 0;
+}
+
+.edHeadline {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    align-self: end;
+    padding: 0;
+}
+
+.bootcamp {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.bootcamp p:nth-of-type(3) {
+    margin-top: 30px;
+    font-size: 1.2rem;
+    font-family: "Inter-Thin", sans-serif;
+}
+
+.MM {
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+.BM {
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+
+.violist {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+.student-services {
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
+
+.RPO {
+    grid-column: 2/3;
+    grid-row: 5/6;
+}

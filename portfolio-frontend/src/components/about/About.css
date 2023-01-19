@@ -1,0 +1,32 @@
+.about {
+    margin: 200px 100px 200px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 150px 150px 150px 100px;
+    border-top: 3px solid #265A5C;
+    border-right: 3px solid #265A5C;
+    border-bottom: 3px solid #265A5C;
+}
+
+.about h2 {
+    padding: 0;
+}
+
+.about p {
+    font-size: 1.6rem;
+    margin: 10px 0;
+}
+
+.aboutRight {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.social {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    margin-top: 10px;
+}

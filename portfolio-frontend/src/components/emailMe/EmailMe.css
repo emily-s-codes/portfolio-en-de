@@ -1,0 +1,52 @@
+.emailMeSection {
+    margin: 150px 0 200px 0;
+    padding: 100px 100px 150px 100px;
+    background-color: #265A5C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.emailLeft h2 {
+    color: #FEC260;
+    text-align: right;
+}
+
+.emailMeSection form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.emailMeSection form input[type=text],
+.emailMeSection form input[type=email],
+.emailMeSection form textarea {
+    margin: 10px 0;
+    padding: 5px;
+    font-family: 'Inter-Light', sans-serif;
+    font-size: 1.4rem;
+    background-color: white;
+}
+
+.emailMeSection form input[type=submit] {
+    color: #265A5C;
+    background-color: white;
+    padding: 10px 30px;
+    border: 2px solid #265A5C;
+    width: 200px;
+    margin: 10px 0;
+    align-self: flex-end;
+    font-family: 'Inter-Regular', sans-serif;
+    font-size: 1.4rem;
+}
+
+.emailMeSection form input[type=submit]:hover {
+    color: #FEC260;
+    background-color: #265A5C;
+    border: 2px solid #FEC260;
+}
+
+.emailMeSection form input[type=submit]:active {
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+}
