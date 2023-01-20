@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import "./Header.css"
 
 const Header = ({ english, setEnglish }) => {
@@ -13,16 +14,18 @@ const Header = ({ english, setEnglish }) => {
     return (
         <header>
             <nav>
-                <h1>Emily Sheil</h1>
+                <Link to="/"><h1>Emily Sheil</h1></Link>
                 <ul>
                     <li><a href="#about">{english ? "About Me" : "Über mich"}</a></li>
                     <li><a href="#techstack">Skills</a></li>
-                    <li><a href="#CV">{english ? "A to B" : "Werdegang"}</a></li>
-                    <li class="navContact"><a href="#emailMe">{english ? "Email Me" : "E-Mail Schicken"}</a></li>
+                    <li><a href="#CV">{english ? "My Journey" : "Werdegang"}</a></li>
+                    <li className="navContact"><a href="#emailMe">{english ? "Email Me" : "E-Mail Schicken"}</a></li>
                 </ul>
             </nav>
             <div className="langToggleDiv">
-                <p className="EN" onClick={handleEnglish}>EN</p><span> || </span><p className="DE" onClick={handleDeutsch}>DE</p>
+                <p className={english ? "EN active" : "EN"} onClick={handleEnglish}>EN</p>
+                <span> || </span>
+                <p className={english ? "DE" : "DE active"} onClick={handleDeutsch}>DE</p>
             </div>
         </header>
     );

@@ -1,10 +1,14 @@
+import { Link } from "react-router-dom";
 import "./Footer.css"
 
 const Footer = () => {
     return (
-        <div>
-            <h2>here is my footer</h2>
-        </div>
+        <footer>
+            <ul>
+                <li>made by Emily Sheil</li>
+                <Link to="/impressum"><li>Impressum</li></Link>
+            </ul>
+        </footer>
     );
 }
 

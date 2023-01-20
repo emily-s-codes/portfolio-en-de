@@ -2,6 +2,7 @@ import express from 'express'
 import cors from 'cors'
 import morgan from 'morgan'
 import nodemailer from 'nodemailer'
+import multer from "multer"
 import "./config/config.js"
 
 const PORT = process.env.PORT
@@ -10,6 +11,7 @@ const app = express()
 app.use(cors())
 app.use(express.json())
 app.use(morgan('dev'))
+const formReader = multer()
 
 const transport = nodemailer.createTransport({
     host: "smtp.mailtrap.io",
@@ -20,7 +22,8 @@ const transport = nodemailer.createTransport({
     }
 });
 
-app.post('/api/emailme', (req, res) => {
+app.post('/api/emailme', formReader.none(), (req, res) => {
+    console.log('request', req.body)
     const message = {
         from: req.body.email,
         to: 'sheil.emily1@gmail.com',
@@ -37,7 +40,8 @@ app.post('/api/emailme', (req, res) => {
     })
 })
 
-app.post('/api/emailyou', (req, res) => {
+app.post('/api/emailyou', formReader.none(), (req, res) => {
+
     const message = {
         from: "sheil.emily1@gmail.com",
         to: req.body.email,

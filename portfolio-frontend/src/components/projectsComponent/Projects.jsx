@@ -4,8 +4,8 @@ import arrow from "../../assets/img/Arrow1.svg"
 
 const Projects = () => {
     return (
-        <section class="projekte">
-            <p class="yellow_highlight"><img src={arrow} alt="long right arrow" /> LOOK WHAT I CAN
+        <section className="projekte">
+            <p className="yellow_highlight"><img src={arrow} alt="long right arrow" /> LOOK WHAT I CAN
                 BUILD</p>
             <h2>PROJEKTE</h2>
             <section className="projektGrid">

@@ -15,11 +15,11 @@ import vscodeIcon from "../../assets/img/vscode.svg"
 
 const Techstack = () => {
     return (
-        <section class="techstack" id="techstack">
+        <section className="techstack" id="techstack">
             <article>
                 <h2>TECH STACK & TOOLS</h2>
             </article>
-            <article class="techstack1">
+            <article className="techstack1">
                 <div>
                     <img src={htmlIcon} alt="html" />
                     <p>HTML5</p>
@@ -37,7 +37,7 @@ const Techstack = () => {
                     <p>React</p>
                 </div>
             </article>
-            <article class="techstack2">
+            <article className="techstack2">
                 <div>
                     <img src={figmaIcon} alt="figma" />
                     <p>Figma</p>
@@ -59,7 +59,7 @@ const Techstack = () => {
                     <p>MongoDB</p>
                 </div>
             </article>
-            <article class="techstack3">
+            <article className="techstack3">
                 <div>
                     <img src={githubIcon} alt="github" />
                     <p>GitHub</p>

@@ -7,6 +7,7 @@ import Footer from './components/footer/Footer'
 import Header from './components/header/Header'
 import EmailMe from "./components/emailMe/EmailMe"
 import { useState } from 'react';
+import Scroll from './components/scroll/Scroll';
 
 function App() {
   const [english, setEnglish] = useState(false)
@@ -20,7 +21,8 @@ function App() {
           <Route path={"/projects/:id"} element={<Project english={english} />} />
           <Route path={"/impressum"} element={<Impressum english={english} />} />
         </Routes>
-        <EmailMe />
+        <Scroll />
+        <EmailMe english={english} />
         <Footer />
       </Router>
     </div>
