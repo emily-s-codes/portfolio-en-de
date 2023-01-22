@@ -70,10 +70,7 @@ const CV = () => {
                     <p className="jobTitle">Tutti Bratschistin</p>
                     <p>Rochester Philharmonic Orchestra</p>
                     <ul>
-                        <li>Tätigkeit in der Bratschen-Gruppe des Berufsorchesters</li>
-                        <li>Alle Sinfoniekonzerten und dazugehörigen
-                            Proben der Saison</li>
-                        <li>1. Vertretung in der Bratschen Gruppe bei allen anderen Aufführungen</li>
+                        <li>Festes Mitglied des philharmonischen Orchesters  für Teilnahme an allen Sinfoniekonzerten und dazugehörigen Proben </li>
                     </ul>
                 </div>
             </article>

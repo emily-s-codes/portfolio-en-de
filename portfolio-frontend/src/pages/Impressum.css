@@ -1,0 +1,16 @@
+.impressumMain {
+    margin: 20px 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.impressumMain section,
+.impressumMain section h3 {
+    margin: 10px 0;
+}
+
+.impressumMain a {
+    font-size: 1.5rem;
+    color: #113c4a;
+    text-decoration: none;
+}

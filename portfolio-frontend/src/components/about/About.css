@@ -27,7 +27,17 @@
 
 .social {
     display: flex;
-    width: 40%;
+    width: 50%;
     justify-content: space-between;
     margin-top: 10px;
+}
+
+.social a {
+    border: 2px solid white;
+    padding: 10px;
+    transition: 350ms;
+}
+
+.social a:hover {
+    transform: scale(1.2)
 }

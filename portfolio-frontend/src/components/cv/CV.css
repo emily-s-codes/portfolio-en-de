@@ -5,7 +5,7 @@
 .workExperienceGrid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 30px repeat(4, 205px);
+    grid-template-rows: 30px repeat(4, 215px);
     gap: 20px;
 }
 

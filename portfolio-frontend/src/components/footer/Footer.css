@@ -8,3 +8,11 @@ footer ul {
     border-left: 3px solid #265A5C;
     border-bottom: 3px solid #265A5C;
 }
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Home from './pages/Home';
 import Impressum from './pages/Impressum';
-import Project from './pages/Project'
+import ProjectPage from './pages/ProjectPage'
 import Footer from './components/footer/Footer'
 import Header from './components/header/Header'
 import EmailMe from "./components/emailMe/EmailMe"
@@ -18,7 +18,7 @@ function App() {
         <Header english={english} setEnglish={setEnglish} />
         <Routes>
           <Route path={"/"} element={<Home english={english} />} />
-          <Route path={"/projects/:id"} element={<Project english={english} />} />
+          <Route path={"/projects/:id"} element={<ProjectPage english={english} />} />
           <Route path={"/impressum"} element={<Impressum english={english} />} />
         </Routes>
         <Scroll />

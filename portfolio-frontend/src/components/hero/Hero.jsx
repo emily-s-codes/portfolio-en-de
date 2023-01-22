@@ -10,7 +10,7 @@ const Hero = ({ english }) => {
                     <img src={arrow} alt="long right arrow" /> {english ? "WELCOME" : "WILLKOMMEN"}</p>
                 <h2>{english ? "I AM" : "ICH BIN"}<br />EMILY <br />SHEIL</h2>
                 <h3>FULLSTACK DEVELOPER</h3>
-                <p className="german"><a href="#">{english ? "Download CV" : "Lebenslauf Herunterladen"}</a></p>
+                {/* <p className="german"><a href="#">{english ? "Download CV" : "Lebenslauf Herunterladen"}</a></p> */}
             </article>
             {/* DIFF DOWNLOADS BASED ON STATE OF ENGLISH  */}
             <article className="heroRight">

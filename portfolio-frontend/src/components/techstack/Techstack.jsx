@@ -6,7 +6,7 @@ import reactIcon from "../../assets/img/react.png"
 import figmaIcon from "../../assets/img/Figma.svg"
 import webflowIcon from "../../assets/img/webflow.png"
 import sassIcon from "../../assets/img/sass.svg"
-// import miroIcon from "../../assets/img/miro.svg"
+import miroIcon from "../../assets/img/miro.svg"
 import mongodbIcon from "../../assets/img/mongodb.png"
 import githubIcon from "../../assets/img/GitHub-Mark-64px.png"
 import nodeIcon from "../../assets/img/nodejs.png"
@@ -51,7 +51,7 @@ const Techstack = () => {
                     <p>SASS/SCSS</p>
                 </div>
                 <div>
-                    <img src="" alt="miro" />
+                    <img src={miroIcon} alt="miro" />
                     <p>Miro</p>
                 </div>
                 <div>

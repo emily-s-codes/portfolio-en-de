@@ -8,13 +8,17 @@
     grid-template-columns: repeat(3, 1fr);
 }
 
+.projektGrid a {
+    text-decoration: none;
+}
+
 .project {
     background-color: rgb(38, 90, 92);
     aspect-ratio: 1/1;
+    display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    justify-content: space-evenly;
-    display: grid;
 }
 
 .stackMap {
@@ -26,7 +30,6 @@
 
 .displayToggleDiv:hover .project {
     display: none;
-    border-radius: 0px;
 }
 
 .displayToggleDiv {
@@ -37,7 +40,6 @@
 }
 
 .displayToggleDiv:hover {
-    border-radius: 0px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
@@ -64,8 +66,4 @@
 
 .projektGrid .project h3 {
     font-size: 3.6rem;
-}
-
-.project a {
-    text-decoration: none;
 }
