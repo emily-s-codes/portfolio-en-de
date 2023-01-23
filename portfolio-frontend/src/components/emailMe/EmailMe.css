@@ -64,3 +64,42 @@
 .emailMeSection form input[type=submit]:active {
     box-shadow: inset 0px 0px 5px #c1c1c1;
 }
+
+@media only screen and (max-width: 991px) {
+    .emailMeSection {
+        flex-direction: column;
+        padding: 50px;
+    }
+
+    .emailMeSection h2 {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .emailMeSection {
+        padding: 50px 10px;
+    }
+
+    .emailMeSection form input,
+    .emailMeSection form textarea,
+    .emailMeSection form label .emailMeSection p {
+        margin: 10px 0;
+    }
+
+    .emailMeSection form input[type=submit] {
+        align-self: center;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .emailMeSection {
+        margin: 200px 250px;
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+    .emailMeSection {
+        margin: 200px 350px;
+    }
+}
