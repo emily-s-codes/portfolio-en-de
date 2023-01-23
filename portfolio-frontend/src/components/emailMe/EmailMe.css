@@ -34,12 +34,14 @@
 }
 
 .emailMeSection label,
-.emailMeSection p {
+.emailMeSection p,
+.emailMeSection a {
     font-family: 'Inter-Light', sans-serif;
     font-size: 1.4rem;
     color: white;
     margin: 10px;
 }
+
 
 .emailMeSection form input[type=submit] {
     color: #265A5C;
