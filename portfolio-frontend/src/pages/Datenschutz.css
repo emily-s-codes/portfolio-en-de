@@ -1,0 +1,16 @@
+.datenschutzMain {
+    margin: 20px 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.datenschutzMain section,
+.datenschutzMain section h3 {
+    margin: 10px 0;
+}
+
+.datenschutzMain a {
+    font-size: 1.5rem;
+    color: #113c4a;
+    text-decoration: none;
+}
