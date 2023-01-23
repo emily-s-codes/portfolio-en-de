@@ -37,6 +37,8 @@ const EmailMe = ({ english }) => {
                 <input type="text" name="name" placeholder={english ? "Name" : "Name"} />
                 <input type="email" name="email" placeholder={english ? "Email Address" : "E-Mail Adresse"} />
                 <textarea name="message" placeholder={english ? "Message" : "Nachricht"} cols="30" rows="10"></textarea>
+                <label htmlFor="datenschutz"><input type="checkbox" id="datenschutz" required />{english ? "I consent to Emily Sheil using my personal information (name and email address) to contact me." : "Ich willige ein, dass Emily Sheil meine personenbezogenen Daten (Name und E-Mail-Adresse) benutzen darf, um Kontakt mit mir aufzunehmen."}</label>
+                <p>{english ? "By submitting this request you declare that you have read the privacy policy" : "Mit dem Absenden dieser Anfrage erklären Sie, die Datenschutzerklärung gelesen zu haben."}</p>
                 <input type="submit" value={english ? "Submit" : "Senden"} />
             </form>
         </section>

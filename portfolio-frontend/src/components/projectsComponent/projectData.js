@@ -36,6 +36,8 @@ import weatherCode1 from "../../assets/img/detail-img/weatherCode1.png"
 import weatherCode2 from "../../assets/img/detail-img/weatherCode2.png"
 import weatherDetail1 from "../../assets/img/detail-img/weatherDetail1.png"
 import weatherDetail2 from "../../assets/img/detail-img/weatherDetail2.png"
+import portfolioEmail1 from "../../assets/img/detail-img/portfolioEmail1.png"
+import portfolioCode3 from "../../assets/img/detail-img/portfolioCode3.png"
 
 export const projects = [
     {
@@ -251,36 +253,6 @@ export const projects = [
             ]
         }
     },
-    // {
-    //     "img": blog,
-    //     "name": "My First Blog",
-    //     "stack": [
-    //         "#express",
-    //         "#react",
-    //         "#nodejs"
-    //     ],
-    //     "imageGrid": [
-    //         ,
-    //         ,
-    //         ,
-    //     ],
-    //     "links": {
-    //         "liveSite": "",
-    //         "repo": "",
-    //     },
-    //     "description": {
-    //         "de": "",
-    //         "en": ""
-    //     },
-    //     "V2": {
-    //         "de": [
-    //             "", ""
-    //         ],
-    //         "en": [
-    //             "", ""
-    //         ]
-    //     }
-    // },
     {
         "img": kino,
         "name": "Korner Kino",
@@ -297,7 +269,7 @@ export const projects = [
         ],
         "links": {
             "liveSite": "",
-            "repo": "",
+            "repo": "https://github.com/emily-s-codes/cinema.git",
         },
         "description": {
             "de": "",
@@ -308,7 +280,7 @@ export const projects = [
                 "", ""
             ],
             "en": [
-                "", ""
+                "implement a reservation calendar", "customer log-in", "create page and functionality to manage an existing reservation", "find and implement a cool design"
             ]
         }
     },
@@ -324,11 +296,12 @@ export const projects = [
         "imageGrid": [
             ,
             ,
-            ,
+            portfolioEmail1,
+            portfolioCode3
         ],
         "links": {
-            "liveSite": "",
-            "repo": "",
+            "liveSite": "https://portfolio-frontend-re7i.onrender.com",
+            "repo": "https://github.com/emily-s-codes/portfolio-en-de.git",
         },
         "description": {
             "de": "",

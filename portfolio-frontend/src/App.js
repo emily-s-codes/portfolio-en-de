@@ -8,6 +8,7 @@ import Header from './components/header/Header'
 import EmailMe from "./components/emailMe/EmailMe"
 import { useState } from 'react';
 import Scroll from './components/scroll/Scroll';
+import Datenschutz from './pages/Datenschutz';
 
 function App() {
   const [english, setEnglish] = useState(false)
@@ -20,6 +21,7 @@ function App() {
           <Route path={"/"} element={<Home english={english} />} />
           <Route path={"/projects/:id"} element={<ProjectPage english={english} />} />
           <Route path={"/impressum"} element={<Impressum english={english} />} />
+          <Route path={"/datenschutz"} element={<Datenschutz english={english} />} />
         </Routes>
         <Scroll />
         <EmailMe english={english} />

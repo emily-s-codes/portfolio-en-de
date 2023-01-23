@@ -29,6 +29,18 @@
     background-color: white;
 }
 
+.emailMeSection form input[type=checkbox] {
+    margin-right: 10px;
+}
+
+.emailMeSection label,
+.emailMeSection p {
+    font-family: 'Inter-Light', sans-serif;
+    font-size: 1.4rem;
+    color: white;
+    margin: 10px;
+}
+
 .emailMeSection form input[type=submit] {
     color: #265A5C;
     background-color: white;
