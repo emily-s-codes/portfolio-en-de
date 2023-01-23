@@ -25,7 +25,7 @@ function App() {
         </Routes>
         <Scroll />
         <EmailMe english={english} />
-        <Footer />
+        <Footer english={english} />
       </Router>
     </div>
   );
