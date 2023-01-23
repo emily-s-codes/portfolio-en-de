@@ -86,3 +86,9 @@ ol li {
   color: #113C4A;
   filter: brightness(0) saturate(100%) invert(17%) sepia(18%) saturate(1904%) hue-rotate(149deg) brightness(99%) contrast(91%);
 }
+
+@media only screen and (max-width: 991px) {
+  .yellow_highlight {
+    display: none;
+  }
+}

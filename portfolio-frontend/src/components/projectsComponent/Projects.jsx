@@ -3,12 +3,12 @@ import { projects } from "./projectData.js";
 import arrow from "../../assets/img/Arrow1.svg"
 import { Link } from "react-router-dom";
 
-const Projects = () => {
+const Projects = ({ english }) => {
     return (
         <section className="projekte">
             <p className="yellow_highlight"><img src={arrow} alt="long right arrow" /> LOOK WHAT I CAN
                 BUILD</p>
-            <h2>PROJEKTE</h2>
+            <h2>{english ? "PROJECTS" : "PROJEKTE"}</h2>
             <section className="projektGrid">
                 {
                     projects.map((project) => {

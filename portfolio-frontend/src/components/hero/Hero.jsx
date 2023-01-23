@@ -8,7 +8,7 @@ const Hero = ({ english }) => {
             <article className="heroLeft">
                 <p className="yellow_highlight">
                     <img src={arrow} alt="long right arrow" /> {english ? "WELCOME" : "WILLKOMMEN"}</p>
-                <h2>{english ? "I AM" : "ICH BIN"}<br />EMILY <br />SHEIL</h2>
+                <h2>{english ? "I'M" : "ICH BIN"}<br />EMILY <br />SHEIL</h2>
                 <h3>FULLSTACK DEVELOPER</h3>
                 {/* <p className="german"><a href="#">{english ? "Download CV" : "Lebenslauf Herunterladen"}</a></p> */}
             </article>

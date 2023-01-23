@@ -13,7 +13,7 @@ import nodeIcon from "../../assets/img/nodejs.png"
 import expressIcon from "../../assets/img/express.png"
 import vscodeIcon from "../../assets/img/vscode.svg"
 
-const Techstack = () => {
+const Techstack = ({ english }) => {
     return (
         <section className="techstack" id="techstack">
             <article>
@@ -38,19 +38,19 @@ const Techstack = () => {
                 </div>
             </article>
             <article className="techstack2">
-                <div>
+                <div className="hideMobile">
                     <img src={figmaIcon} alt="figma" />
                     <p>Figma</p>
                 </div>
-                <div>
+                <div className="hideMobile">
                     <img src={webflowIcon} alt="Webflow" />
                     <p>Webflow</p>
                 </div>
-                <div>
+                <div className="hideMobile">
                     <img src={sassIcon} alt="scss" />
                     <p>SASS/SCSS</p>
                 </div>
-                <div>
+                <div className="hideMobile">
                     <img src={miroIcon} alt="miro" />
                     <p>Miro</p>
                 </div>
@@ -70,13 +70,14 @@ const Techstack = () => {
                 </div>
                 <div>
                     <img src={expressIcon} alt="express" />
-                    <p>express</p>
+                    <p>express.js</p>
                 </div>
                 <div>
                     <img src={vscodeIcon} alt="visual studio code" />
                     <p>Visual Studio Code</p>
                 </div>
             </article>
+            <p className="displayMobile">... {english ? "and more" : "und mehr"}</p>
         </section>
     );
 }

@@ -1,7 +1,6 @@
 .scrollButtonWrapper {
     position: fixed;
     text-align: right;
-    width: 100%;
     bottom: 100px;
     right: 10px;
     height: 80px;

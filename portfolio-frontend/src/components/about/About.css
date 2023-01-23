@@ -27,17 +27,55 @@
 
 .social {
     display: flex;
-    width: 50%;
-    justify-content: space-between;
+    gap: 15px;
+    justify-content: flex-start;
     margin-top: 10px;
 }
 
 .social a {
     border: 2px solid white;
-    padding: 10px;
+    padding-right: 10px;
     transition: 350ms;
 }
 
 .social a:hover {
     transform: scale(1.2)
+}
+
+@media only screen and (max-width: 767px) {
+    .about {
+        margin: 100px 100px 100px 0;
+        padding: 100px 50px;
+        flex-direction: column;
+    }
+
+    .about h2 {
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    .about p {
+        font-size: 1.4rem;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .about {
+        margin: 100px 50px 100px 0;
+        padding: 100px 50px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .about {
+        margin: 200px 150px 200px 0;
+        padding: 150px 150px 150px 250px;
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+    .techstack {
+        margin: 200px 250px 200px 0;
+        padding: 150px 150px 150px 350px;
+    }
 }

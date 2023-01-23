@@ -6,7 +6,6 @@
 
 .hero .yellow_highlight {
     margin-bottom: 0;
-
 }
 
 .hero .yellow_highlight img {
@@ -50,7 +49,6 @@
 .heroRight {
     display: inline-block;
     position: relative;
-
 }
 
 .heroRight::before {
@@ -65,4 +63,39 @@
 
 .heroRight img {
     width: 80%;
+}
+
+@media only screen and (max-width: 767px) {
+    .hero {
+        flex-direction: column;
+        margin: 50px;
+    }
+
+    .hero article {
+        width: 100%;
+    }
+
+    .hero article h2 {
+        font-size: 4rem;
+    }
+
+    .hero article h3 {
+        font-family: 'Inter-Regular', sans-serif;
+        font-size: 2rem;
+        padding-bottom: 10px;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) {
+    .hero {
+        margin: 100px 250px;
+        gap: 50px;
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+    .hero {
+        margin: 100px 350px;
+    }
 }

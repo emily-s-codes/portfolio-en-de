@@ -17,3 +17,29 @@ footer a:hover {
     text-decoration: underline;
     color: #265A5C;
 }
+
+@media only screen and (max-width: 991px) {
+    footer ul {
+        margin: 50px 0 50px 100px;
+        padding: 20px 100px 20px 50px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    footer ul {
+        flex-direction: column;
+        margin: 50px 0 50px 50px;
+        padding: 20px;
+    }
+
+    footer ul li {
+        padding: 10px 0;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    footer ul {
+        margin: 50px 0 50px 600px;
+        padding: 20px 200px 20px 250px;
+    }
+}

@@ -10,7 +10,7 @@ const About = ({ english }) => {
                 <h2>{english ? "ABOUT" : "ÜBER"}<br />{english ? "ME" : "MICH"}</h2>
             </article>
             <article className="aboutRight">
-                <p>{english ? "As I approach the end of a fullstack web development bootcamp I'm excited to bring the passions I first developed as a classical musician to web development: creative problem solving, structured independent work and communicative teamwork." : "Ich freue mich darauf, die Leidenschaften, die ich als klassische Musikerin entwickelt habe, in die Webentwicklung einzubringen: kreative Problemlösung, strukturierte, selbstständige Arbeit und kommunikative Teamarbeit."}
+                <p>{english ? "I'm excited to bring the passions I first developed as a classical musician to web development: creative problem solving, structured independent work and communicative teamwork." : "Ich freue mich darauf, die Leidenschaften, die ich als klassische Musikerin entwickelt habe, in die Webentwicklung einzubringen: kreative Problemlösung, strukturierte, selbstständige Arbeit und kommunikative Teamarbeit."}
                 </p>
                 {/*  */}
                 <section className="social">

@@ -49,3 +49,82 @@
 .techstack div:hover p {
     display: block;
 }
+
+@media only screen and (max-width: 991px) {
+    .techstack {
+        margin: 100px 0 100px 50px;
+        padding: 50px 150px 50px 50px;
+    }
+
+    .techstack article {
+        display: grid;
+        margin-top: 30px;
+        gap: 10px;
+    }
+
+    .techstack1,
+    .techstack3 {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .techstack2 {
+        grid-template-columns: repeat(5, 1fr);
+    }
+
+    .techstack img {
+        width: 80px;
+    }
+
+    .displayMobile {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .techstack {
+        margin: 50px 0 50px 50px;
+        padding: 50px;
+    }
+
+    .techstack h2 {
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    .techstack1,
+    .techstack3 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 30px;
+        gap: 10px;
+    }
+
+    .techstack2 {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .techstack article .hideMobile {
+        display: none;
+    }
+
+    .displayMobile {
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .techstack {
+        margin: 200px 0 200px 150px;
+        padding: 150px 250px 150px 150px;
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+    .techstack {
+        margin: 200px 0 200px 250px;
+        padding: 150px 350px 150px 150px;
+    }
+}

@@ -57,3 +57,27 @@ header nav ul li.navContact a:active {
 .langToggleDiv .DE.active {
     text-decoration: underline;
 }
+
+/* @media only screen and (max-width: 991px) {
+    header nav {
+        padding: 20px;
+        height: 20vh;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    /* burger menu  */
+/* header nav ul {
+        align-self: flex-end;
+        margin: 50px;
+    } }*/
+
+@media only screen and (min-width: 1200px) {
+    header nav {
+        margin: 50px 100px 0 100px;
+    }
+
+    .langToggleDiv {
+        margin: 0 100px;
+    }
+}
