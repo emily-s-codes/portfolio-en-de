@@ -1,0 +1,48 @@
+.burgerSection {
+    transition: 850ms;
+    width: 50%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    overflow: hidden;
+    background-color: #3F7B70;
+    display: flex;
+    flex-direction: column;
+}
+
+.hideBurger {
+    right: -100%;
+}
+
+.showBurger {
+    right: 0;
+    transition: 350ms;
+}
+
+.burger-X {
+    margin: 20px;
+    align-self: flex-end;
+    border: 2px solid #3F7B70;
+    border-radius: 10px;
+}
+
+.burger-X:hover {
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+.burgerSection ul {
+    margin: 20px;
+    list-style-type: none;
+    text-align: center;
+}
+
+.burgerSection ul li {
+    margin: 20px 10px;
+}
+
+.burgerSection ul li a {
+    color: #dddddd;
+    font-size: 2rem;
+}

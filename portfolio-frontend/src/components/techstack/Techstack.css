@@ -50,6 +50,10 @@
     display: block;
 }
 
+.displayMobile {
+    display: none;
+}
+
 @media only screen and (max-width: 991px) {
     .techstack {
         margin: 100px 0 100px 50px;

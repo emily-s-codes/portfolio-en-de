@@ -39,6 +39,31 @@ header nav ul li.navContact a:active {
     box-shadow: inset 0px 0px 5px #c1c1c1;
 }
 
+.burger {
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 30px;
+    padding: 5px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.burgerIcon {
+    width: 30px;
+    height: 3px;
+    background-color: #113c4a;
+}
+
+.burger:hover {
+    border: 2px solid #113c4a;
+    cursor: pointer;
+}
+
+.burger:active {
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+}
+
 .langToggleDiv {
     display: flex;
     align-items: center;
@@ -58,19 +83,15 @@ header nav ul li.navContact a:active {
     text-decoration: underline;
 }
 
-/* @media only screen and (max-width: 991px) {
-    header nav {
-        padding: 20px;
-        height: 20vh;
-        flex-direction: column;
-        align-items: flex-start;
+@media only screen and (max-width: 991px) {
+    .burger {
+        display: flex;
     }
 
-    /* burger menu  */
-/* header nav ul {
-        align-self: flex-end;
-        margin: 50px;
-    } }*/
+    header nav ul {
+        display: none;
+    }
+}
 
 @media only screen and (min-width: 1200px) {
     header nav {
