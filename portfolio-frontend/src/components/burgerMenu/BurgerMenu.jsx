@@ -7,10 +7,26 @@ const BurgerMenu = ({ burgerActive, setBurgerActive, english }) => {
         <section className={burgerActive ? "burgerSection showBurger" : "burgerSection hideBurger"}>
             <AiOutlineClose className="burger-X" size={"40"} color="white" onClick={() => setBurgerActive(!burgerActive)} />
             <ul>
-                <li><AnchorLink href="#about">{english ? "About Me" : "Über mich"}</AnchorLink></li>
-                <li><AnchorLink href="#techstack">Skills</AnchorLink></li>
-                <li><AnchorLink href="#experience">{english ? "My Journey" : "Werdegang"}</AnchorLink></li>
-                <li className="navContact"><AnchorLink href="#emailMe">{english ? "Email Me" : "E-Mail Schicken"}</AnchorLink></li>
+                <li onClick={() => setBurgerActive(!burgerActive)}>
+                    <AnchorLink href="#about"
+                    >{english ?
+                        "About Me"
+                        : "Über mich"}
+                    </AnchorLink>
+                </li>
+                <li onClick={() => setBurgerActive(!burgerActive)}>
+                    <AnchorLink href="#techstack"
+                    >Skills</AnchorLink>
+                </li>
+                <li onClick={() => setBurgerActive(!burgerActive)}>
+                    <AnchorLink href="#experience">{english ? "My Journey" : "Werdegang"}
+                    </AnchorLink>
+                </li>
+                <li className="navContact" onClick={() => setBurgerActive(!burgerActive)}>
+                    <AnchorLink href="#emailMe">{english ?
+                        "Email Me" :
+                        "E-Mail Schicken"}</AnchorLink>
+                </li>
             </ul>
         </section>
     );

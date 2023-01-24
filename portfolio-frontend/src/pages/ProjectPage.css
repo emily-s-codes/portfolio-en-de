@@ -5,7 +5,7 @@
 }
 
 .projectHero img {
-    width: 60%;
+    width: 70%;
 }
 
 .projectDescription {
@@ -45,7 +45,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin: 100px 150px;
-    gap: 10px;
+    gap: 30px;
 }
 
 .imageGridimg {
@@ -54,9 +54,69 @@
     object-fit: contain;
     object-position: center;
     overflow: hidden;
-    border-radius: 10px;
 }
 
 .version2Section {
     margin: 0 150px;
+}
+
+@media only screen and (max-width:991px) {
+
+    .projectDescription,
+    .projectGrid {
+        margin: 50px 100px 150px 100px;
+    }
+
+    .version2Section {
+        margin: 50px 100px;
+    }
+
+    .projectGrid {
+        gap: 30px;
+    }
+
+    .imageGridimg {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:767px) {
+
+    .projectDescription,
+    .projectGrid {
+        margin: 50px 50px 100px 50px;
+    }
+
+    .version2Section {
+        margin: 50px 50px 100px 50px;
+    }
+
+    .version2Section h2 {
+        font-size: 4rem;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+    .projectHero,
+    .projectDescription,
+    .projectGrid,
+    .version2Section {
+        margin: 100px 250px;
+    }
+
+    .projectGrid {
+        gap: 50px;
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+
+    .projectHero,
+    .projectDescription,
+    .projectGrid,
+    .version2Section {
+        margin: 100px 350px;
+    }
 }

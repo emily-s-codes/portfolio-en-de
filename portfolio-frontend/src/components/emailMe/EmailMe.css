@@ -94,12 +94,12 @@
 
 @media only screen and (min-width: 1200px) {
     .emailMeSection {
-        margin: 200px 250px;
+        padding: 200px 250px;
     }
 }
 
 @media only screen and (min-width: 1300px) {
     .emailMeSection {
-        margin: 200px 350px;
+        padding: 200px 350px;
     }
 }

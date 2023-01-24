@@ -37,7 +37,15 @@ import weatherCode2 from "../../assets/img/detail-img/weatherCode2.png"
 import weatherDetail1 from "../../assets/img/detail-img/weatherDetail1.png"
 import weatherDetail2 from "../../assets/img/detail-img/weatherDetail2.png"
 import portfolioEmail1 from "../../assets/img/detail-img/portfolioEmail1.png"
+import portfolioCode1 from "../../assets/img/detail-img/portfolioCode1.png"
+import portfolioCode2 from "../../assets/img/detail-img/portfolioCode2.png"
 import portfolioCode3 from "../../assets/img/detail-img/portfolioCode3.png"
+import portfolioDetail1 from "../../assets/img/detail-img/portfolioDetail1.png"
+import portfolioDetail2 from "../../assets/img/detail-img/portfolioDetail2.png"
+import kinoDetail1 from "../../assets/img/detail-img/kinoDetail1.png"
+import kinoDetail2 from "../../assets/img/detail-img/kinoDetail2.png"
+import kinoCode1 from "../../assets/img/detail-img/kinoCode1.png"
+import kinoCode2 from "../../assets/img/detail-img/kinoCode2.png"
 
 export const projects = [
     {
@@ -154,10 +162,10 @@ export const projects = [
         },
         "V2": {
             "de": [
-                "", ""
+                "derzeit nicht in Planung"
             ],
             "en": [
-                "", ""
+                "not currently planned"
             ]
         }
     },
@@ -263,24 +271,24 @@ export const projects = [
             "#nodemailer"
         ],
         "imageGrid": [
-            ,
-            ,
-            ,
-        ],
+            kinoCode1,
+            kinoDetail1,
+            kinoDetail2,
+            kinoCode2],
         "links": {
             "liveSite": "",
             "repo": "https://github.com/emily-s-codes/cinema.git",
         },
         "description": {
-            "de": "",
-            "en": ""
+            "de": "Der größte Teil dieses Projekts ist die Back-End-Funktionalität. Die ursprüngliche Aufgabe bestand darin, einen Sitzplatz mit einem Klick zu reservieren. Ich habe es so erweitert, dass der Kunde die Sitzplatzauswahl (nur im Front-End) bearbeiten kann, bevor er den Kauf abschließt (d. h. im Back-End speichert).",
+            "en": "The bulk of this project is the back-end functionality. The original assignment was to reserve a seat with one click. I extended it such that the customer can edit the seat selection (front-end only) before finalizing a purchase (i.e. saving to the back-end)."
         },
         "V2": {
             "de": [
-                "", ""
+                "Reservierungskalender implementieren", "Admin Log-in einbauen", "Kunden Log-in einbauen", "Seite und Funktionalität zur Verwaltung einer bestehenden Reservierung erstellen", "cooles Design finden und umsetzen", "Fehlerbehebung auf der Admin-Seite: 'available seats' und 'income' funktionieren nicht zuverlässig", "Ladezeit nach 'Confirm' minimieren", "CRUD-Methoden im Bakend in async/await Format aktualisieren"
             ],
             "en": [
-                "implement a reservation calendar", "customer log-in", "create page and functionality to manage an existing reservation", "find and implement a cool design"
+                "implement a reservation calendar", "admin log-in", "customer log-in", "create page and functionality to manage an existing reservation", "find and implement a cool design", "fix bugs on the admin page: available seats and total income are unreliable", "reduce the wait time after clicking 'confirm'", "update CRUD methods in backend in async/await format"
             ]
         }
     },
@@ -294,8 +302,10 @@ export const projects = [
             "#nodemailer"
         ],
         "imageGrid": [
-            ,
-            ,
+            portfolioDetail2,
+            portfolioCode1,
+            portfolioCode2,
+            portfolioDetail1,
             portfolioEmail1,
             portfolioCode3
         ],
@@ -304,15 +314,15 @@ export const projects = [
             "repo": "https://github.com/emily-s-codes/portfolio-en-de.git",
         },
         "description": {
-            "de": "",
-            "en": ""
+            "de": "Für mein Portfolio habe ich ein von unserem Kurs bereitgestelltes Desktop-Design verwendet und es erweitert, um es responsive zu machen, und es mit React, Express und Node neu aufgebaut. Ich fügte Funktionalität wie das Burger-Menü und den 'nach-oben-scrollen' Pfeil hinzu.",
+            "en": "For my portfolio I used a desktop-design provided by our course and expanded it to make it responsive and rebuilt it using React, Express and Node. I added features like the Burger Menu and the return-to-top arrow."
         },
         "V2": {
             "de": [
-                "", ""
+                "E-Mail-Funktionalität aus dem Betatest (Nodemailer) in den funktionalen E-Mail-Versand", "CV-Download (in der aktuell angezeigten Sprache) auf Klick", "Burger-Menü Links von der Detail-Seite korrigieren"
             ],
             "en": [
-                "", ""
+                "move email functionality out of beta testing with nodemailer and into functional emailing", "CV download on click, in language currently shown", "fix so that the links from the detail page lead to the homepage"
             ]
         }
     }

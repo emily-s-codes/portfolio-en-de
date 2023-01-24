@@ -39,7 +39,7 @@ footer a:hover {
 
 @media only screen and (min-width: 1200px) {
     footer ul {
-        margin: 50px 0 50px 600px;
-        padding: 20px 200px 20px 250px;
+        margin: 50px 0 50px 400px;
+        padding: 20px 200px 20px 150px;
     }
 }

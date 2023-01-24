@@ -10,7 +10,7 @@ const Project = ({ english }) => {
     console.log(project)
     console.log(params.id)
     return (
-        <div>
+        <main className="projectMain">
             <section className="projectHero">
                 <img src={project[0].img} alt={project[0].name} />
             </section>
@@ -41,7 +41,7 @@ const Project = ({ english }) => {
             </section>
             {/* <Techstack /> */}
             <Projects />
-        </div>
+        </main>
     );
 }
 

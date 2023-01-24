@@ -4,7 +4,6 @@ import morgan from 'morgan'
 import nodemailer from 'nodemailer'
 import multer from "multer"
 import "./config/config.js"
-import fs from "fs"
 
 const PORT = process.env.PORT
 const app = express()
