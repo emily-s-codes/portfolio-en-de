@@ -5,7 +5,6 @@ import calCalling from "../../assets/img/CalCallingSS.png"
 import coffee from "../../assets/img/coffeeSS.png"
 import weather from "../../assets/img/weatherSS.png"
 import pokemon from "../../assets/img/pokemonSS.png"
-import blog from "../../assets/img/blogSS.png"
 import kino from "../../assets/img/kinoSS.png"
 import portfolio from "../../assets/img/portfolioSS.png"
 import woodiesCode1 from "../../assets/img/detail-img/woodiesCode1.png"
@@ -218,15 +217,15 @@ export const projects = [
             "repo": "https://github.com/emily-s-codes/weather_api_react",
         },
         "description": {
-            "de": "",
-            "en": ""
+            "de": "Für dieses Projekt habe ich die Open Weather Map API verwendet. Es war eine große Herausforderung, die Zeit für die gewählte Stadt korrekt zu formatieren — d.h., nicht auf der Grundlage der IP-Adresse des Website-Besuchers! Ich habe die Funktionalität hinzugefügt, die Einheiten zu ändern und einen Link zu GoogleMaps erstellt, damit man sehen kann, wo genau diese Daten gemessen wurden.",
+            "en": "For this project I used the Open Weather Map API. Formatting the time correctly for the city chosen rather than based on the IP address of the website visitor was a big challenge! I added the functionality to change units as well as a link to GoogleMaps so that you can see where exactly this data was measured."
         },
         "V2": {
             "de": [
-                "", ""
+                "ein cooles Design finden und umsetzen", "eine Visualisierung von Sonnenaufgang und Sonnenuntergang erstellen"
             ],
             "en": [
-                "", ""
+                "find and implement a cool design", "build a sunrise-sunset visualization"
             ]
         }
     },
@@ -276,7 +275,7 @@ export const projects = [
             kinoDetail2,
             kinoCode2],
         "links": {
-            "liveSite": "",
+            "liveSite": "https://emily-cinema.onrender.com/",
             "repo": "https://github.com/emily-s-codes/cinema.git",
         },
         "description": {

@@ -1,14 +1,12 @@
 import Projects from "../components/projectsComponent/Projects";
-// import Techstack from "../components/techstack/Techstack";
 import "./ProjectPage.css"
 import { useParams } from "react-router-dom";
 import { projects as projectData } from "../components/projectsComponent/projectData";
 
 const Project = ({ english }) => {
     const params = useParams()
-    const project = projectData.filter(project => { if (project.name === params.id) { return project } })
-    console.log(project)
-    console.log(params.id)
+    const project = projectData.filter(project => project.name === params.id).map(project => project)
+
     return (
         <main className="projectMain">
             <section className="projectHero">
@@ -39,7 +37,6 @@ const Project = ({ english }) => {
                         })}
                 </ul>
             </section>
-            {/* <Techstack /> */}
             <Projects />
         </main>
     );

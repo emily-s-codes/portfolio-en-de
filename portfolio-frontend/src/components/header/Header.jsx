@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom"
+import { HashLink } from "react-router-hash-link"
 import "./Header.css"
-import AnchorLink from "react-anchor-link-smooth-scroll"
 import BurgerMenu from "../burgerMenu/BurgerMenu"
 import { useState } from "react"
+
 
 const Header = ({ english, setEnglish }) => {
     const [burgerActive, setBurgerActive] = useState(false)
@@ -20,10 +21,10 @@ const Header = ({ english, setEnglish }) => {
             <nav>
                 <Link to="/"><h1>Emily Sheil</h1></Link>
                 <ul>
-                    <li><AnchorLink href="#about">{english ? "About Me" : "Über mich"}</AnchorLink></li>
-                    <li><AnchorLink href="#techstack">Skills</AnchorLink></li>
-                    <li><AnchorLink href="#experience">{english ? "My Journey" : "Werdegang"}</AnchorLink></li>
-                    <li className="navContact"><AnchorLink href="#emailMe">{english ? "Email Me" : "E-Mail Schicken"}</AnchorLink></li>
+                    <li><HashLink smooth to='/#about'>{english ? "About Me" : "Über mich"}</HashLink></li>
+                    <li><HashLink smooth to='/#techstack'>Skills</HashLink></li>
+                    <li><HashLink smooth to='/#experience'>{english ? "My Journey" : "Werdegang"}</HashLink></li>
+                    <li className="navContact"><HashLink smooth to='/#emailMe'>{english ? "Email Me" : "E-Mail Schicken"}</HashLink></li>
                 </ul>
                 <section className="burger" onClick={() => setBurgerActive(!burgerActive)}>
                     <div className="burgerIcon"></div>
