@@ -309,7 +309,7 @@ export const projects = [
             portfolioCode3
         ],
         "links": {
-            "liveSite": "https://portfolio-frontend-re7i.onrender.com",
+            "liveSite": "https://emily-portfolio.up.railway.app/",
             "repo": "https://github.com/emily-s-codes/portfolio-en-de.git",
         },
         "description": {
