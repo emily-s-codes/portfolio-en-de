@@ -63,7 +63,7 @@ export const projects = [
             fakebookCode2
         ],
         "links": {
-            "liveSite": "https://fakebook-frontend.onrender.com",
+            "liveSite": "https://fakebook-frontend-emily.up.railway.app/",
             "repo": "https://github.com/emily-s-codes/fakebook.git",
         },
         "description": {
@@ -213,7 +213,7 @@ export const projects = [
             weatherDetail2
         ],
         "links": {
-            "liveSite": "https://weather-app-emily.onrender.com/",
+            "liveSite": "https://weatherapireact.up.railway.app/",
             "repo": "https://github.com/emily-s-codes/weather_api_react",
         },
         "description": {
@@ -244,12 +244,12 @@ export const projects = [
             pokemonCode2
         ],
         "links": {
-            "liveSite": "https://pokemon-emily.onrender.com/",
+            "liveSite": "https://pokemon-emily-production.up.railway.app",
             "repo": "https://github.com/emily-s-codes/pokemon-emily",
         },
         "description": {
-            "de": "Wir hatten drei Tage Zeit und ein Team von vier Entwicklern, um diese Pokemon-App zu erschaffen. Ich habe die Detailseite programmiert und eine Lösung für den dunklen Modus gefunden, indem ich den State von der SearchBar.js in die App.js verschoben habe.",
-            "en": "We were given three days and a team of four developers to create this Pokemon App. I coded the Detail Page and provided a much-needed fix for the dark mode functionality by moving the state from the SearchBar.js to App.js."
+            "de": "Wir hatten drei Tage Zeit und ein Team von vier Entwicklern, um diese Pokemon-App zu erschaffen. Ich habe die Detailseite programmiert und eine Lösung für den dunklen Modus gefunden, indem ich den State von der SearchBar.js in die App.js verschoben habe. Meine Änderungen sind nun überall im Code zu finden, da ich auch nach unserer Präsentation noch etwas nachgebessert habe.",
+            "en": "We were given three days and a team of four developers to create this Pokemon App. I coded the Detail Page and provided a much-needed fix for the dark mode functionality by moving the state from the SearchBar.js to App.js. This project now has my edits all over the code, as I continued tweaking things after we were 'done.'"
         },
         "V2": {
             "de": [
@@ -275,7 +275,7 @@ export const projects = [
             kinoDetail2,
             kinoCode2],
         "links": {
-            "liveSite": "https://emily-cinema.onrender.com/",
+            "liveSite": "https://cinema-frontend.up.railway.app",
             "repo": "https://github.com/emily-s-codes/cinema.git",
         },
         "description": {
