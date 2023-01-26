@@ -72,10 +72,10 @@ export const projects = [
         },
         "V2": {
             "de": [
-                "Pagination-Komponente fertigstellen und die in die mobile-Große miteinbinden", "ein cooles Design finden und umsetzen", "eine Desktop-Version formatieren"
+                "Pagination-Komponente fertigstellen und die in die mobile-Große miteinbinden", "ein cooles Design finden und umsetzen", "eine schönere Desktop-Version formatieren", "Log-In Funktionalität implementieren"
             ],
             "en": [
-                "finish pagination component and display in mobile size", "find and implement a cool design", "format a desktop version"
+                "finish pagination component and display in mobile size", "find and implement a cool design", "format a nicer desktop version", "implement log-in functionality"
             ]
         }
     },
