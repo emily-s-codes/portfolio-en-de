@@ -50,11 +50,11 @@ import toktokDetail1 from "../../assets/img/detail-img/toktok1.png"
 import toktokDetail2 from "../../assets/img/detail-img/toktok2.png"
 import toktokCode1 from "../../assets/img/detail-img/toktok_code1.png"
 import toktokCode2 from "../../assets/img/detail-img/toktok_code2.png"
-import goosewindMain from "../assets/img/goosewind_main.png"
-import goosewindmobile1 from "../assets/img/detail-img/goosewind_mobile.png"
-import goosewindmobile2 from "../assets/img/detail-img/goosewind_mobile_edit.png"
-import goosewindtablet1 from "../assets/img/detail-img/goosewind_tablet_dash.png"
-import goosewindtablet2 from "../assets/img/detail-img/goosewind_tablet_add.png"
+import goosewindMain from "../../assets/img/goosewind_main.png"
+import goosewindmobile1 from "../../assets/img/detail-img/goosewind_mobile.png"
+import goosewindmobile2 from "../../assets/img/detail-img/goosewind_mobile_edit.png"
+import goosewindtablet1 from "../../assets/img/detail-img/goosewind_tablet_dash.png"
+import goosewindtablet2 from "../../assets/img/detail-img/goosewind_tablet_add.png"
 
 export const projects = [
     {
