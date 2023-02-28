@@ -12,7 +12,7 @@
 }
 
 .workExperienceGrid .jobDescription {
-    margin: 10px;
+    margin: 10px 0;
 }
 
 .jobTitle {
@@ -74,7 +74,6 @@
     .workExperienceGrid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: 30px repeat(4, 240px);
         gap: 20px;
     }
 
@@ -126,10 +125,6 @@
 @media only screen and (min-width: 1200px) {
     .experience {
         margin: 200px 250px;
-    }
-
-    .workExperienceGrid {
-        grid-template-rows: 30px repeat(4, 215px);
     }
 }
 

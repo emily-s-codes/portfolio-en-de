@@ -2,11 +2,12 @@ import fakebook from "../../assets/img/FakebookSS.png"
 import woodies from "../../assets/img/woodiesSS.png"
 import designShop from "../../assets/img/TheDesignShopSS.png"
 import calCalling from "../../assets/img/CalCallingSS.png"
-import coffee from "../../assets/img/coffeeSS.png"
+// import coffee from "../../assets/img/coffeeSS.png"
 import weather from "../../assets/img/weatherSS.png"
 import pokemon from "../../assets/img/pokemonSS.png"
 import kino from "../../assets/img/kinoSS.png"
 import portfolio from "../../assets/img/portfolioSS.png"
+import toktok from "../../assets/img/toktok_home.png"
 import woodiesCode1 from "../../assets/img/detail-img/woodiesCode1.png"
 import woodiesCode2 from "../../assets/img/detail-img/woodiesCode2.png"
 import woodiesDetail1 from "../../assets/img/detail-img/woodiesDetail1.png"
@@ -27,10 +28,10 @@ import calDetail1 from "../../assets/img/detail-img/calDetail1.png"
 import calDetail2 from "../../assets/img/detail-img/calDetail2.png"
 import calCode1 from "../../assets/img/detail-img/calCode1.png"
 import calCode2 from "../../assets/img/detail-img/calCode2.png"
-import coffeeDetail1 from "../../assets/img/detail-img/coffeeDetail1.png"
-import coffeeDetail2 from "../../assets/img/detail-img/coffeeDetail2.png"
-import coffeeCode1 from "../../assets/img/detail-img/coffeeCode1.png"
-import coffeeCode2 from "../../assets/img/detail-img/coffeeCode2.png"
+// import coffeeDetail1 from "../../assets/img/detail-img/coffeeDetail1.png"
+// import coffeeDetail2 from "../../assets/img/detail-img/coffeeDetail2.png"
+// import coffeeCode1 from "../../assets/img/detail-img/coffeeCode1.png"
+// import coffeeCode2 from "../../assets/img/detail-img/coffeeCode2.png"
 import weatherCode1 from "../../assets/img/detail-img/weatherCode1.png"
 import weatherCode2 from "../../assets/img/detail-img/weatherCode2.png"
 import weatherDetail1 from "../../assets/img/detail-img/weatherDetail1.png"
@@ -45,8 +46,136 @@ import kinoDetail1 from "../../assets/img/detail-img/kinoDetail1.png"
 import kinoDetail2 from "../../assets/img/detail-img/kinoDetail2.png"
 import kinoCode1 from "../../assets/img/detail-img/kinoCode1.png"
 import kinoCode2 from "../../assets/img/detail-img/kinoCode2.png"
+import toktokDetail1 from "../../assets/img/detail-img/toktok1.png"
+import toktokDetail2 from "../../assets/img/detail-img/toktok2.png"
+import toktokCode1 from "../../assets/img/detail-img/toktok_code1.png"
+import toktokCode2 from "../../assets/img/detail-img/toktok_code2.png"
+import goosewindMain from "../assets/img/goosewind_main.png"
+import goosewindmobile1 from "../assets/img/detail-img/goosewind_mobile.png"
+import goosewindmobile2 from "../assets/img/detail-img/goosewind_mobile_edit.png"
+import goosewindtablet1 from "../assets/img/detail-img/goosewind_tablet_dash.png"
+import goosewindtablet2 from "../assets/img/detail-img/goosewind_tablet_add.png"
 
 export const projects = [
+    {
+        "img": toktok,
+        "name": "TokTok",
+        "stack": [
+            "#mongodb",
+            "#express",
+            "#react",
+            "#nodejs"
+        ],
+        "imageGrid": [
+            toktokCode1,
+            toktokDetail1,
+            toktokDetail2,
+            toktokCode2
+        ],
+        "links": {
+            "liveSite": "https://toktok-abschlussprojekt.up.railway.app/",
+            "repo": "https://github.com/emily-s-codes/deploy_toktok",
+        },
+        "description": {
+            "de": "Für unsere Abschlusspräsentation erhielt unsere Vierergruppe ein Figma-Design für TokTok, eine Social-Media-App. Zwei Wochen lang arbeiteten wir gemeinsam von der Planung bis zur Deployment, wobei wir den MERN-Stack sowie Railway, Trello und Miro verwendeten. Ich war verantwortlich für das Backend, die Fetch-Funktionalitäten im Frontend, das Deployment und die Strukturierung der Datenbank. Zusätzlich habe ich die 'Andere' Profilseite (nicht für den eingeloggten Benutzer) und die Profilbearbeitungsseite erstellt und gestaltet und mein Team bei allen Aspekten des Projekts unterstützt. Probiere es aus! Du kannst einen neuen Benutzernamen registrieren oder Lolita Pates Profil verwenden: test@db.com, 123.",
+            "en": "For our final presentation our group of four received a Figma-Design for TokTok, a social media app. Over two weeks we worked together from planning to deployment, using the MERN Stack as well as Railway for deployment, Trello, and Miro. I was responsible for the Backend, the Fetch functionalities in the frontend, deployment, and structuring the database. Additionally I built and styled the 'Other' Profile Page (not for the logged-in user), the Edit Profile Page, and I supported my team across all aspects of the project. Try it out! You can register a new username or use Lolita Pate's profile: test@db.com, 123."
+        },
+        "V2": {
+            "de": [
+                "Passwort-Vergessen-Funktionalität", 
+                "Funktionalität: Antworte auf Kommentare", 
+                "Lazy-Loading",
+                "Dunkelmodus",
+                "Funktionalität: Kommentare und Posts löschen",
+                "Private Nachrichten",
+                "Media-Queries für Tablet & Desktop"
+            ],
+            "en": [
+                "'Forgot Your Password?' functionality", 
+                "Reply to comments functionality", 
+                "lazy-loading",
+                "dark-mode",
+                "functionality to delete comments and posts",
+                "private messaging",
+                "Media-queries for tablet and desktop"
+            ]
+        }
+    },
+    {
+        "img": goosewindMain,
+        "name": "GooseWind",
+        "stack": [
+            "#mongodb + #mongoose",
+            "#express",
+            "#react",
+            "#nodejs",
+            "#tailwindcss"
+        ],
+        "imageGrid": [
+            goosewindmobile1,
+            goosewindtablet1,
+            goosewindmobile2,
+            goosewindtablet2
+        ],
+        "links": {
+            "liveSite": "https://goosewind.up.railway.app/",
+            "repo": "https://github.com/emily-s-codes/goosewind",
+        },
+        "description": {
+            "de": "GooseWind ist ein Projekt, das ich mir ausgedacht habe, um mein Verständnis des MERN-Stacks zu vertiefen und meine Fähigkeiten zu erweitern, indem ich lernte, wie man Mongoose und TailwindCSS benutzt. Du bist herzlich eingeladen, Deinen Benutzernamen und Passwort zu registrieren und damit die App als Benutzer zu erkunden, oder Du könntest einfach die öffentlichen Seiten besuchen. Einige der Funktionen, die nach der Anmeldung zur Verfügung stehen, sind in den Bildern oben zu sehen.",
+            "en": "GooseWind is a project I thought up in order to deepen my understanding of the MERN stack and to broaden my skillset by learning how to use Mongoose and TailwindCSS. You are very welcome to register your username and password and begin creating, or you can simply explore the public-facing pages. Some of the functionality available upon login can be seen in the images above."
+        },
+        "V2": {
+            "de": [
+                "Passwort-Vergessen-Funktionalität", 
+                "Lazy-Loading",
+                "Dunkelmodus",
+                "Hashtag-Editor einbauen",
+                "Suchfunktionalität"
+            ],
+            "en": [
+                "'Forgot Your Password?' functionality", 
+                "lazy-loading",
+                "dark-mode",
+                "build a hashtag-editor interface",
+                "integrate search function"
+            ]
+        }
+    },
+    {
+        "img": portfolio,
+        "name": "Portfolio",
+        "stack": [
+            "#express",
+            "#react",
+            "#nodejs",
+            "#nodemailer"
+        ],
+        "imageGrid": [
+            portfolioDetail2,
+            portfolioCode1,
+            portfolioCode2,
+            portfolioDetail1,
+            portfolioEmail1,
+            portfolioCode3
+        ],
+        "links": {
+            "liveSite": "https://emily-portfolio.up.railway.app/",
+            "repo": "https://github.com/emily-s-codes/portfolio-en-de.git",
+        },
+        "description": {
+            "de": "Für mein Portfolio habe ich ein von unserem Kurs bereitgestelltes Desktop-Design verwendet und es erweitert, um es responsive zu machen, und es mit React, Express und Node neu aufgebaut. Ich fügte Funktionalität wie das Burger-Menü und den 'nach-oben-scrollen' Pfeil hinzu.",
+            "en": "For my portfolio I used a desktop-design provided by our course and expanded it to make it responsive and rebuilt it using React, Express and Node. I added features like the Burger Menu and the return-to-top arrow."
+        },
+        "V2": {
+            "de": [
+                "E-Mail-Funktionalität aus dem Betatest (Nodemailer) in den funktionalen E-Mail-Versand", "CV-Download (in der aktuell angezeigten Sprache) auf Klick", "Burger-Menü Links von der Detail-Seite korrigieren"
+            ],
+            "en": [
+                "move email functionality out of beta testing with nodemailer and into functional emailing", "CV download on click, in language currently shown", "fix so that the links from the detail page lead to the homepage"
+            ]
+        }
+    },
     {
         "img": fakebook,
         "name": "Fakebook",
@@ -168,37 +297,37 @@ export const projects = [
             ]
         }
     },
-    {
-        "img": coffee,
-        "name": "The Coffee Connoisseur",
-        "stack": [
-            "#html",
-            "#SASS/SCSS",
-            "#bootstrap"
-        ],
-        "imageGrid": [
-            coffeeCode1,
-            coffeeDetail1,
-            coffeeDetail2,
-            coffeeCode2
-        ],
-        "links": {
-            "liveSite": "https://emily-s-codes.github.io/bootstrap_intro/",
-            "repo": "https://github.com/emily-s-codes/bootstrap_intro.git",
-        },
-        "description": {
-            "de": "Für diese offene Aufgabe sollten wir eine Landing Page für ein fiktives Unternehmen mit Bootstrap erstellen. Meine Liebe zu allem, was mit Kaffee zu tun hat (und meine Selbsterkenntnis, dass ich ein Snob bin), inspirierte mich zu diesem Entwurf.",
-            "en": "For this open assignment we were instructed to create a landing page for a company of our own invention, using Bootstrap. My love of all things coffee (and my self-awareness of my snobbery) inspired this design."
-        },
-        "V2": {
-            "de": [
-                "eine Detailseite für jede Kategorie erstellen", "mehrere Produkte für jede Kategorie auflisten", "Warenkorb implementieren", "Login-Funktionalität implementieren", "Responsive Design optimieren"
-            ],
-            "en": [
-                "make a detail page for each category", "list several products for each category, also with their own pages", "implement a shopping cart", "implement log-in functionality", "tweak responsive design"
-            ]
-        }
-    },
+    // {
+    //     "img": coffee,
+    //     "name": "The Coffee Connoisseur",
+    //     "stack": [
+    //         "#html",
+    //         "#SASS/SCSS",
+    //         "#bootstrap"
+    //     ],
+    //     "imageGrid": [
+    //         coffeeCode1,
+    //         coffeeDetail1,
+    //         coffeeDetail2,
+    //         coffeeCode2
+    //     ],
+    //     "links": {
+    //         "liveSite": "https://emily-s-codes.github.io/bootstrap_intro/",
+    //         "repo": "https://github.com/emily-s-codes/bootstrap_intro.git",
+    //     },
+    //     "description": {
+    //         "de": "Für diese offene Aufgabe sollten wir eine Landing Page für ein fiktives Unternehmen mit Bootstrap erstellen. Meine Liebe zu allem, was mit Kaffee zu tun hat (und meine Selbsterkenntnis, dass ich ein Snob bin), inspirierte mich zu diesem Entwurf.",
+    //         "en": "For this open assignment we were instructed to create a landing page for a company of our own invention, using Bootstrap. My love of all things coffee (and my self-awareness of my snobbery) inspired this design."
+    //     },
+    //     "V2": {
+    //         "de": [
+    //             "eine Detailseite für jede Kategorie erstellen", "mehrere Produkte für jede Kategorie auflisten", "Warenkorb implementieren", "Login-Funktionalität implementieren", "Responsive Design optimieren"
+    //         ],
+    //         "en": [
+    //             "make a detail page for each category", "list several products for each category, also with their own pages", "implement a shopping cart", "implement log-in functionality", "tweak responsive design"
+    //         ]
+    //     }
+    // },
     {
         "img": weather,
         "name": "Weather-API-App",
@@ -288,40 +417,6 @@ export const projects = [
             ],
             "en": [
                 "implement a reservation calendar", "admin log-in", "customer log-in", "create page and functionality to manage an existing reservation", "find and implement a cool design", "fix bugs on the admin page: available seats and total income are unreliable", "reduce the wait time after clicking 'confirm'", "update CRUD methods in backend in async/await format"
-            ]
-        }
-    },
-    {
-        "img": portfolio,
-        "name": "Portfolio",
-        "stack": [
-            "#express",
-            "#react",
-            "#nodejs",
-            "#nodemailer"
-        ],
-        "imageGrid": [
-            portfolioDetail2,
-            portfolioCode1,
-            portfolioCode2,
-            portfolioDetail1,
-            portfolioEmail1,
-            portfolioCode3
-        ],
-        "links": {
-            "liveSite": "https://emily-portfolio.up.railway.app/",
-            "repo": "https://github.com/emily-s-codes/portfolio-en-de.git",
-        },
-        "description": {
-            "de": "Für mein Portfolio habe ich ein von unserem Kurs bereitgestelltes Desktop-Design verwendet und es erweitert, um es responsive zu machen, und es mit React, Express und Node neu aufgebaut. Ich fügte Funktionalität wie das Burger-Menü und den 'nach-oben-scrollen' Pfeil hinzu.",
-            "en": "For my portfolio I used a desktop-design provided by our course and expanded it to make it responsive and rebuilt it using React, Express and Node. I added features like the Burger Menu and the return-to-top arrow."
-        },
-        "V2": {
-            "de": [
-                "E-Mail-Funktionalität aus dem Betatest (Nodemailer) in den funktionalen E-Mail-Versand", "CV-Download (in der aktuell angezeigten Sprache) auf Klick", "Burger-Menü Links von der Detail-Seite korrigieren"
-            ],
-            "en": [
-                "move email functionality out of beta testing with nodemailer and into functional emailing", "CV download on click, in language currently shown", "fix so that the links from the detail page lead to the homepage"
             ]
         }
     }
